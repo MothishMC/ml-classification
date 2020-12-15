@@ -1,0 +1,30 @@
+cv --> instance of the Logistic regression
+
+cv.vocabulary_.keys()  --> Will display all the words used (i.e words in the column of the document matrix)
+Lmodel --> Logistic regression model 
+
+Lmodel.fit()
+Lmodel.transform()
+Lmodel.fit_transform()
+
+## After training the model with the train data
+1) Lmodel.decision_function() --> Predicts confidence scores for samples.
+The confidence score for a sample is the signed distance of that sample to the hyperplane.
+
+2) Lmodel.predict(sample_document_matrix) --> Predicts the class labels for the samples(i.e either +1/-1)
+
+3) Lmodel.predict_proba(sample_document_matrix) --> Will return the probability predictions of the model (i.e 1/1+exp(x) ) output --> [0.00367653 0.99632347]
+for 1 data point, it will show how much it is positively classified and how it is negatively classified.
+If we add both the probabilities of that particular data point, then it will give raise to 1.
+
+Eg : Taking 1 sample data (Positive Probability)
+Lmode.predict()  returns [1]
+Lmodel.predict_proba() returns [0.00367653 0.99632347]
+[0.00367653] --> Probability of the output to be 0
+[0.99632347] --> Probability of the output to be 1  (( It is clear that specific data-point is positively classified ))
+
+Taking 1 sample data (Negative Probability)
+Lmode.predict()  returns [-1]
+Lmodel.predict_proba() returns [0.95964929 0.04035071]
+[0.95964929] --> Probability of the output to be 0
+[0.04035071] --> Probability of the output to be 1  (( It is clear that specific data-point is negatively classified ))

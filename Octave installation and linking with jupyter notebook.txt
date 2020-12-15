@@ -1,0 +1,13 @@
+1) Download octave with exe file --> https://www.gnu.org/software/octave/download.html#ms-windows
+
+
+2) create a virtual environment and activate it
+
+3) pip install octave_kernel
+4) pip install jupyter notebook
+
+5) Create a environment variable 
+ Variable name  --> OCTAVE_EXECUTABLE
+ Variable value --> C:\Octave\Octave-5.2.0\mingw64\bin\octave-ci.exe
+
+6) Open Jupyter notebook and in New, click Octave. Then you can run Octave commands in jupyter notebook

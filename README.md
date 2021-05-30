@@ -1,2 +1,2 @@
-# ml-classification
-A Supervised technique with code and other stuffs
+# Classification
+Classification algorithm including notes and implementation

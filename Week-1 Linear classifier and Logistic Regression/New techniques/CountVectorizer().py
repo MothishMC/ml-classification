@@ -7,9 +7,15 @@ from sklearn.feature_extraction.text import CountVectorizer
 cv=CountVectorizer()
 
 x = cv.fit(corpus)   # learn the vocabularies 
-print(x.vocabulary_) # dictionary of words and their corresponding indices (arranged in alphabetical order)
+
+# dictionary of words and their corresponding indices (arranged in alphabetical order)
+print("Vocabulary")
+print(x.vocabulary_) 
+
+print("Feature Names")
 print(cv.get_feature_names()) # list of volcabularies
-print('awesome word is found in the vector : ',cv.transform(['awesome']).toarray())
+
+print("awesome word is found in the vector : ",cv.transform(['awesome']).toarray())
 
 x = cv.transform(corpus)  # transforms the matrix into document_term_matrix
 

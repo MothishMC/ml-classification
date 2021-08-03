@@ -9,11 +9,3 @@ Classification algorithm including notes and implementation
     </li>
 </ul>        
 </details>
-
-<!-- <details>
-<summary>Assignment-2</summary>
-<ul>
-    <li> <a href="https://github.com/MothishMC/iNeuron_Assignments/blob/main/2.1_pattern.py">Qn.1</a>
-    <li> <a href="https://github.com/MothishMC/iNeuron_Assignments/blob/main/2.2_reverse.py">Qn.2</a>
-</ul>
-</details> -->

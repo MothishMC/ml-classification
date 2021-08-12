@@ -13,10 +13,10 @@ Classification algorithm including notes and implementation
 <details>
 <summary>Week-2 Assignment-1</summary>
 <ul>  
-    <li> <a href = "https://github.com/PrashanthSingaravelan/ml-classification/blob/main/Week-2%20Learning%20Linear%20Classifiers/assignments/Implementing%20Logistic%20Regression%20from%20scratch.ipynb">
+    <li> <a href = "https://github.com/PrashanthSingaravelan/ml-classification/blob/main/Week-2%20Learning%20Linear%20Classifiers/assignments/assignment_1/Implementing%20Logistic%20Regression%20from%20scratch.ipynb">
     Implementing Logistic Regression from scratch</a>
 
-<li> <a href = "https://github.com/PrashanthSingaravelan/ml-classification/blob/main/Week-2%20Learning%20Linear%20Classifiers/assignments/Logistic%20Regression%20with%20L2%20regularization.ipynb">    Logistic Regression with L2 regularization</a>
+<li> <a href = "https://github.com/PrashanthSingaravelan/ml-classification/blob/main/Week-2%20Learning%20Linear%20Classifiers/assignments/assignment_2/Logistic%20Regression%20with%20L2%20regularization.ipynb">    Logistic Regression with L2 regularization</a>
 </li>
 
 </ul>        

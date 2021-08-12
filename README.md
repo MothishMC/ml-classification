@@ -15,11 +15,9 @@ Classification algorithm including notes and implementation
 <ul>  
     <li> <a href = "https://github.com/PrashanthSingaravelan/ml-classification/blob/main/Week-2%20Learning%20Linear%20Classifiers/assignments/Implementing%20Logistic%20Regression%20from%20scratch.ipynb">
     Implementing Logistic Regression from scratch</a>
-    </li>
 
-    <li> <a href = "https://github.com/PrashanthSingaravelan/ml-classification/blob/main/Week-2%20Learning%20Linear%20Classifiers/assignments/Logistic%20Regression%20with%20L2%20regularization.ipynb">
-    Logistic Regression with L2 regularization</a>
-    </li>
+<li> <a href = "https://github.com/PrashanthSingaravelan/ml-classification/blob/main/Week-2%20Learning%20Linear%20Classifiers/assignments/Implementing%20Logistic%20Regression%20from%20scratch.ipynb">    Implementing Logistic Regression from scratch</a>
+</li>
 
 </ul>        
 </details>
